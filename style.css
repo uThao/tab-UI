@@ -68,3 +68,9 @@
     margin-bottom: 8px;
   }
   
+  html {
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer, Edge */
+    user-select: none; /* Tất cả các trình duyệt */
+  }

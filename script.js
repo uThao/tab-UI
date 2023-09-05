@@ -10,10 +10,10 @@ tabs.forEach(function(tab, index) {
         $('.tab-item.active').classList.remove('active');
         $('.tab-pane.active').classList.remove('active');
 
-        e.target.classList.add('active')
+        tab.classList.add('active')
         panes[index].classList.add('active')
 
-        line.style.left = e.target.offsetLeft + 'px'
-        line.style.width = e.target.offsetWidth + 'px'
+        line.style.left = tab.offsetLeft + 'px'
+        line.style.width = tab.offsetWidth + 'px'
     }
 })  
